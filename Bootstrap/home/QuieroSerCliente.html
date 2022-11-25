@@ -1,0 +1,93 @@
+<!doctype html>
+
+
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title> Login </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="keywords" content="login,formulariode acceso html">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/QuieroSerCliente.css">
+
+  <style type="text/css">
+
+  </style>
+
+  <script type="text/javascript" src="js/QuieroSerCliente.js"></script>
+
+  </script>
+
+
+<body>
+
+  <div id="contenedor">
+
+    <div id="contenedorcentrado">
+      <div id="cliente">
+        <form id="clienteform">
+
+          <label for="txtCedula" >Documento</label>
+          <input id="txtCedula" type="text" name="usuario" placeholder="" required>
+              
+          <label for="txtNombre" >Nombres</label>
+          <input id="txtNombre" type="text" name="Nombre" placeholder="" required>
+
+          <label for="txtApellido" >Apellidos</label>
+          <input id="txtApellido" type="text" name="Nombre" placeholder="" required>
+
+          <label for="txtCelular" >Teléfono</label>
+          <input id="txtCelular" type="text" name="Nombre" placeholder="" required>
+                
+        
+          <div class="col-md-6">
+            <label for="txtCorreo" class="form-label">Correo </label>
+            <div class="input-group has-validation">
+              
+              <input type="email" class="form-control" id="txtCorreo" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+             
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-6">
+            <label for="txtRol" class="form-label">Tipo de usuario</label>
+            <select class="form-control" id="txtRol" required>
+              <option>Cliente</option>
+            </select>
+          </div>
+
+
+
+
+          <button onclick="RegistrarPersona()" title="Ingresar" name="Ingresar">Ingresar</button>
+        </form>
+
+      </div>
+
+      <div id="derecho">
+        <div class="titulo">
+         Quiero pertenecer a la  familia
+          <br>Mascota Feliz
+        </div>
+        <hr>
+        <div class="pie-form">
+
+          <hr>
+          <a href="index.html">« Volver</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

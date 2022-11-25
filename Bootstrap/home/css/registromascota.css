@@ -1,0 +1,68 @@
+body {
+    background-image: url(assets/img/mas);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.formulario {
+    max-width: 100 em;
+    background-color: rgba(213, 210, 222, 0.31);
+    padding: 1.0em;
+    margin: 5 auto;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 22px 4px;
+    color: rgb(82, 71, 81);
+
+}
+
+.form-control {
+    background: rgb(251, 217, 200);
+    border-style: none;
+    transition: 0.15s ease-in;
+}
+
+.form-control::placeholder {
+    color: rgb(209, 107, 39);
+}
+
+.ingresar {
+    background: rgb(218, 164, 16);
+    font-size: 16px;
+    font-weight: 700 !important;
+    color: rgb(34, 33, 33);
+}
+
+.olvide {
+    color: rgb(75, 72, 58);
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+.olvide:hover {
+    color: rgb(0, 0, 0);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+
+.registrarU {
+    color: rgb(112, 79, 9);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 700 !important;
+    border: 2px solid rgb(234, 204, 139);
+    padding: 15px;
+    border-radius: 10px;
+    background: rgb(01, 02, 02, -.5);
+}
+
+.registrarU:hover {
+    color: rgb(13, 120, 104);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}

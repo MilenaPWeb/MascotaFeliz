@@ -1,0 +1,85 @@
+<!doctype html>
+
+
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title> Crear Mascota</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="keywords" content="login,formulariode acceso html">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/mascota.css">
+
+  <style type="text/css">
+
+  </style>
+
+  <script type="text/javascript" src="js/Mascota.js"></script>
+
+  </script>
+
+
+<body>
+
+  <div id="contenedor">
+
+    <div id="contenedorcentrado">
+      <div id="cliente">
+        <form id="clienteform">
+
+          <label for="txtnombre" >Nombre</label>
+          <input id="txtnombre" type="text" name="usuario" placeholder="" required>
+              
+          <label for="txtfoto" >Foto</label>
+          <input id="txtfoto" type="text" name="Nombre" placeholder="" required>
+
+          <div class="col-md-6">
+            <label for="txtestado" class="form-label">Estado</label>
+            <select class="form-control" id="txtestado" required>
+              <option>Pendiente</option>
+             
+            </select>
+          </div> 
+          <div class="col-md-6">
+            <label for="txtespecie" class="form-label">Especie</label>
+            <select class="form-control" id="txtespecie" required>
+              <option>Canino</option>
+              <option>Felino</option>
+              <option>Otros</option>
+            </select>
+          </div> 
+          <label for="txtcomentario" >Comentario</label>
+          <input id="txtcomentario" type="text" name="Nombre" placeholder="" required>
+                
+        
+
+
+          <button onclick="registrarmascota()" title="Ingresar" name="Ingresar">Enviar solicitud</button>
+        </form>
+
+      </div>
+
+      <div id="derecho">
+        <div class="titulo">
+            <a >Gracias por tu solicitud       </a>
+        </div>
+        <hr>
+        <div class="pie-form">
+
+          <hr>
+          <a href="">*Petición sujeta a términos y condiciones </a>
+          <a href="Cliente.html">« Volver</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
